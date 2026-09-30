@@ -1,10 +1,11 @@
-# Documentation folder
+# Docs folder
 
-Store exported schematic PDFs and PCB previews here.
+This folder is intended for exported review documents and image files used to preview the board without opening Altium.
 
-Recommended files:
-- docs/schematic.pdf
-- docs/schematic_preview.png
-- docs/board_preview.png
+Current exports in the repository root include:
+- 5V-to-3.3V_Voltage _Regulator.pdf
+- Micro_USB_&_USB-UART.pdf
+- Connectors_&_Switch_Buttons.pdf
+- ESP32_Module.pdf
 
-This helps make the project understandable without needing Altium installed.
+These may later be moved into docs/ if you want a cleaner folder layout.

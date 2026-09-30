@@ -1,9 +1,8 @@
-# BOM folder
+# BOM directory
 
-Put BOM exports here.
+This directory is intended for BOM exports and part-list review documents.
 
-Recommended files:
-- bom/bom-prelim.csv
-- bom/bom-final.csv
+Current BOM source:
+- Esp32_Dev_Board.BomDoc (Altium BOM document)
 
-If the design is still in progress, a preliminary BOM export from the schematic is still useful as a portfolio artifact.
+This can later be exported to CSV and moved here as bom-prelim.csv / bom-final.csv.

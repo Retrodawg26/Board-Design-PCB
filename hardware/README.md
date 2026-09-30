@@ -1,10 +1,11 @@
 # Hardware folder
 
-Place the Altium design files in the following folders:
+This directory is reserved for future organization of board files and custom design assets.
 
-- hardware/schematic/  -> schematic sheets and symbols
-- hardware/pcb/        -> PCB files and project file
-- hardware/libraries/  -> custom libraries
-- hardware/3d/         -> STEP or 3D model files (use Git LFS for large files)
+Current project files are still in the repository root because they were uploaded directly from the Altium project export. This is acceptable for a portfolio snapshot, and the files can later be moved into subfolders for a cleaner structure if needed.
 
-Do not upload large generated outputs or cache artifacts directly unless needed.
+Suggested future layout:
+- hardware/schematic/
+- hardware/pcb/
+- hardware/libraries/
+- hardware/3d/

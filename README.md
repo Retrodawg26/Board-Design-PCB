@@ -1,28 +1,48 @@
 # Board-Design-PCB
 
-ESP32-based board design — schematic complete, PCB in progress (WIP).
+ESP32 development board design — schematic complete, PCB in progress (WIP).
 
-Status
-- Schematic: complete
-- PCB: in progress
-- BOM: preliminary export available from schematic
-- Manufacturing files: not yet generated
+This repository is a public portfolio snapshot of my board design work. It shows the schematic design, the PCB project file, and the current work-in-progress state for an ESP32-based development board.
 
-This repo is a portfolio snapshot of the design work so far. It is intended to show the project, the schematic breakdown, and the current PCB status to recruiters and collaborators.
+Project status
+- Schematic design: complete
+- PCB layout: in progress
+- BOM: preliminary BOM export available from the schematic
+- Manufacturing outputs (Gerbers / NC drill): not yet generated
 
-Suggested structure
-- hardware/schematic/ — schematic sheets and custom symbols
-- hardware/pcb/ — PCB files and project file
-- hardware/libraries/ — any custom libraries used by the design
-- docs/ — exported schematic PDFs and preview images
+Included design files
+- ESP32_Dev_Board.PrjPcb
+- ESP32_Dev_Board.PcbDoc
+- 5V-to-3.3V_Voltage _Regulator.SchDoc
+- Micro_USB_&_USB-UART.SchDoc
+- Connectors_&_Switch_Buttons.SchDoc
+- ESP32_Module.SchDoc
+- ESP-WROOM-32D.IntLib
+- LESD5D5.0CT1G.IntLib
+- Esp32_Dev_Board.BomDoc
+
+Exported documentation
+- 5V-to-3.3V_Voltage _Regulator.pdf
+- Micro_USB_&_USB-UART.pdf
+- Connectors_&_Switch_Buttons.pdf
+- ESP32_Module.pdf
+
+BOM
+- The BOM export is included as the Altium-generated BOM document: Esp32_Dev_Board.BomDoc
+- A CSV export version can be added later once the final BOM is cleaned up for release.
+
+Repository structure
+- README.md — project overview and status
+- DESIGN_STATUS.md — current tasks and outstanding design work
+- hardware/ — for future organization of library and PCB source files
+- docs/ — exported PDFs and review files
 - bom/ — BOM exports
-- manufacturing/ — Gerbers/NC drill once the PCB is ready
+- LICENSE — MIT license
 
-Current state
-- The project is not yet complete.
-- The Altium design files are being uploaded and organized here.
-- Please use DESIGN_STATUS.md for the tasks still open.
+Design notes
+- This project is intentionally kept as a WIP portfolio project.
+- The board is not yet final, and fabrication outputs are not included because the PCB is still under development.
+- The goal of this repo is to show the engineering progression, not to present a finished production board.
 
 License
-- Add a license file if you want to publish the design under a specific open-hardware license.
-- MIT is a common choice if you want a permissive license.
+This project is licensed under the MIT License. See LICENSE for details.
