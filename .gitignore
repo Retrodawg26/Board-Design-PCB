@@ -1,0 +1,23 @@
+# Git ignore for Altium
+
+# Altium Designer temporary & backup
+*.Cache
+*.CacheFile
+*.IntLib
+*.SchDoc~*
+*.PcbDoc~*
+*.SchLib~*
+*.PcbLib~*
+*.Backup
+*~*.SchDoc
+*~*.PcbDoc
+/ProjectOutputs/
+/Generated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
