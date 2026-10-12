@@ -1,23 +1,30 @@
 # DESIGN_STATUS
 
-This file tracks the project status and remaining tasks for the ESP32 development board.
+This file tracks the current state of the ESP32 development board project.
 
 Current status
 - Schematic: complete
-- PCB: in progress
-- BOM: preliminary export from schematic exists
-- Gerbers: not generated yet
+- PCB design: complete
+- PCB validation: complete
+- BOM: available from the Altium BOM document
+- 2D/3D views: uploaded and included in the repository
+- Gerbers / NC drill: uploaded and included in the repository
+- DRC: report uploaded
 
-Open tasks
-- [ ] Finish PCB routing
-- [ ] Validate and fix DRC issues
-- [ ] Confirm footprint accuracy for connectors and passives
-- [ ] Finalize BOM with manufacturer part numbers
-- [ ] Generate fabrication outputs (Gerbers, NC drill, stackup notes)
-- [ ] Export final schematic PDF and board views
-- [ ] Create a release with final manufacturing files once the PCB is ready
+Milestones
+- [x] Schematic capture complete
+- [x] Core board architecture defined
+- [x] Power regulation and USB/UART sections reviewed
+- [x] Connectors and switch/button circuitry included
+- [x] PCB project saved and uploaded
+- [x] Final board design complete
+- [x] Final 2D board view exported
+- [x] Final 3D view exported
+- [x] Gerber ZIP generated
+- [x] NC drill file generated
+- [x] Final project documentation and validation files uploaded
 
 Notes
-- This repo is currently a WIP portfolio project.
-- Keep all custom libraries and project files in the hardware/ folders so the design is reproducible.
-- Use Git LFS for large 3D model or archive files when needed.
+- This is a finished prototype board design snapshot intended for portfolio and review use.
+- Final manufacturing and validation outputs are included in the repository for quick inspection.
+- Use the manufacturing/ folder for fabrication artifacts and docs/ for review images.
